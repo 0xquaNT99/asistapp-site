@@ -1,1 +1,0 @@
-var e=`asist.geminiKey`;function t(){try{return localStorage.getItem(e)?.trim()??``}catch{return``}}function n(t){try{let n=t.trim();n?localStorage.setItem(e,n):localStorage.removeItem(e)}catch{}}function r(){return!!t()}export{r as n,n as r,t};
